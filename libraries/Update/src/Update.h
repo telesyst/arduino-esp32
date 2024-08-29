@@ -232,6 +232,8 @@ public:
     */
   bool rollBack();
 
+  void reset(void) { _reset(); }
+
 private:
   void _reset();
   void _abort(uint8_t err);
